@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+html {
+	scroll-behavior: smooth;
+}
+body, p{
+    color: #777;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400
+}
+a:hover, a:focus{
+    text-decoration: none
+}
+input:focus, textarea:focus{
+    outline: none
+}
+h1, h2, h3, h4, h5{
+	color: #4b3030;
+	font-family: 'Arial', sans-serif;
+}
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 27px;
+}
+h3{
+	font-size: 23px;
+}
+h4{
+	font-size: 22px;
+}
+h5{
+	font-size: 19px;
+}
+.header{
+	background-color: #000033;
+}
+.header{
+	color: white;
+}
+.header a{
+	color: white;
+}
+.header a:hover{
+	color: #cccccc;
+}
+section{
+	margin: 20px 0px;
+	padding: 60px 0px;
+}
+.section-title{
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+.section-title-border{
+	margin-top: 0px;
+	margin-bottom: 40px;
+	width: 100px;
+	border: 2px solid #000033;
+}
+.navbar{
+	padding: 0px;
+}
+
+.top-detail{
+	padding: 10px 0px;
+	background-color: #000027;
+	border-bottom: 1px solid black;
+}
+.top-detail i{
+	padding-right: 3px;
+}
+
+.home-page .top-image{
+	background-image: url(assets/img/top-banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-position:  left;
+}
+.home-page .top-image .detail-info{
+	padding: 150px 0px;
+}
+.home-page .top-image .input-group{
+	width: 80%;
+}
+
+.home-page .best-features .features{
+	padding: 30px 10px;
+	background: #f9f9fd;
+	margin-bottom: 20px;
+}
+.home-page .best-features .features:hover{
+	background-color: white;
+	box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.1);
+}
+.home-page .best-features h5{
+	padding-top: 20px;
+}
+
+.home-page .our-blog .blog-type{
+	padding: 10px;
+	margin-bottom: 20px;
+	background: #f9f9fd;
+}
+.home-page .our-blog h5{
+	padding-top: 20px;
+}
+.home-page .our-blog .blog-type:hover{
+	background-color: white;
+	box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.1);
+}
+.home-page .appointment{
+	background-image: url(assets/img/form-banner.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.home-page .appointment-form{
+	width: 70%;
+	background-color: #000033;
+}
+.home-page .appointment-form form{
+	width: 90%;
+	padding: 40px 0px;	
+}
+
+.welcome a{
+	color: #4b3030;
+}
+
+footer{
+	padding-top: 50px;
+	background-color: #000033;
+	color: white;
+}
+footer h3, footer h5, footer a{
+	color: white;
+}
+footer a:hover{
+	color: #cccccc;
+}
+footer .copyright{
+	padding: 20px 0px;
+	background-color: #000027;
+}
+footer .footer-detail{
+	padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.home-page .appointment-form{
+		width: 95%;
+	}
+	#location-icon{
+		display: none;
+	}
+}

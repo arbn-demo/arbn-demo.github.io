@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OnlineDoctorCo</title>
+	<link href="assets/img/logo.png" rel="icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/fontawesome/css/all.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	<script src="assets/jquery/jquery.min.js"></script>
+	<script src="assets/bootstrap/js/popper.min.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="home-page">
+	<div class="top-menu-bar header">
+		<div class="top-detail">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-12 d-none d-md-block">
+						<a href="mailto:info@onlinedoctorco.com"><i class="fas fa-envelope"></i> info@onlinedoctorco.com</a>
+						<a href="tel:+977 9813639131"><i class="fas fa-phone pl-3"></i> +977 9813639131</a></a>
+					</div>
+					<div class="col-md-4 col-sm-12 text-center text-md-right">
+						<a href="">Login</a> / <a href="">Register</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
+	<nav class="navbar navbar-expand-md sticky-top header">
+		<div class="container">
+			<a href="#" class="navbar-brand"><img src="assets/img/logo.png" class="responsive" width="50px"></a>
+			<button class="navbar-toggler  navbar-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="navbar-collapse collapse w-100  justify-content-end" id="collapsibleNavbar">
+				<ul class="nav navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="doctor.html">DOCTORS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">BLOG</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">SIGN UP</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#appointment">TAKE APPIONTMENT</a>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</nav>
+	<div class="top-image">
+		<div class="container-fluid text-center">
+			<div class="detail-info container">
+				<h1>OnlineDoctorCo</h1>
+				<h5>Your Health is always in the first place</h5>
+				<div class="search-bar">
+					<form>
+						<div class="input-group mx-auto">
+							<div class="input-group-prepend" id="location-icon">
+								<span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+							</div>
+							<input type="text" class="form-control d-none d-md-block" placeholder="Nepal" value="Nepal">
+							<div class="input-group-prepend">
+								<span class="input-group-text"><i class="fas fa-search"></i></span>
+							</div>
+							<select name="search-doctor" class="form-control" onchange="javascript:location.href = 'doctor.html?type='+this.value;">
+								<option selected value="0">Search doctors, clinics, etc.</option>
+								<option value="dentist">Dentist</option>
+								<option value="ayurveda">Ayurveda</option>
+								<option value="homoeopath">Homoeopath</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="welcome">
+		<div class="container-fluid text-center">
+			<div class="container">
+				<h2 class="section-title">About Online DoctorCo</h2>
+				<hr class="section-title-border">
+				<div class="row">					
+					<div class="col-md-6 d-none d-md-block">
+						<img src="assets/img/welcome.png" class="responsive w-100">
+					</div>
+					<div class="col-md-6 col-sm-12 text-center text-md-left">
+						<h4>Know About Us</h4>
+						<p>this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text. this is test text</p>
+						<div id="accordion">
+							<div class="card">
+								<div class="card-header">
+								<a class="card-link" data-toggle="collapse" href="#collapseOne">
+									<i class="fas fa-chevron-down"></i> Our Mission
+								</a>
+								</div>
+								<div id="collapseOne" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									Lorem ipsum..
+								</div>
+								</div>
+							</div>							
+							<div class="card">
+								<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+									<i class="fas fa-chevron-down"></i> Our Vision
+								</a>
+								</div>
+								<div id="collapseTwo" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									Lorem ipsum..
+								</div>
+								</div>
+							</div>							
+							<div class="card">
+								<div class="card-header">
+								<a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+									<i class="fas fa-chevron-down"></i> Why Choose Us
+								</a>
+								</div>
+								<div id="collapseThree" class="collapse" data-parent="#accordion">
+								<div class="card-body">
+									Lorem ipsum..
+								</div>
+								</div>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="best-features">
+		<div class="container-fluid text-center">
+			<div class="container">
+				<h2 class="section-title">What makes us best?</h2>
+				<hr class="section-title-border">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-12">
+						<div class="features">
+							<img src="assets/img/feature1.png" alt="" class="responsive"><br>
+							<h5>Qualified Doctors</h5>
+							<p>this is the test text there has to feature detail in this section</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-12">
+						<div class="features">
+							<img src="assets/img/feature1.png" alt="" class="responsive"><br>
+							<h5>Online Enrollment</h5>
+							<p>this is the test text there has to feature detail in this section</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-12">
+						<div class="features">
+							<img src="assets/img/feature1.png" alt="" class="responsive"><br>
+							<h5>Free Consultation</h5>
+							<p>this is the test text there has to feature detail in this section</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-12">
+						<div class="features">
+							<img src="assets/img/feature1.png" alt="" class="responsive"><br>
+							<h5>Emergency Service</h5>
+							<p>this is the test text there has to feature detail in this section</p>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="appointment" id="appointment">
+		<div class="container-fluid text-center">
+			<div class="container justify-content-center">
+				<h2 class="section-title">Take Appointment Now</h2>
+				<hr class="section-title-border">
+				<div class="appointment-form mx-auto">
+					<form action="#" method="POST" class="mx-auto">
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">Name</span>
+							</div>
+							<input type="text" class="form-control" placeholder="Your Name" name="name" required>
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">Contact No</span>
+							</div>
+							<input type="number" class="form-control" placeholder="Your Contact No" name="pho" required>
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">Email</span>
+							</div>
+							<input type="email" class="form-control" placeholder="Your Email" name="email" required>
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">Department</span>
+							</div>
+							<select name="search-doctor" class="form-control">
+								<option selected value="0">Select Department</option>
+								<option value="dentist">Dentist</option>
+								<option value="ayurveda">Ayurveda</option>
+								<option value="homoeopath">Homoeopath</option>
+							</select>							
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">Appointment Date</span>
+							</div>
+							<input type="date" class="form-control" placeholder="Appointment Date" name="date">
+						</div>
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text">Message</span>
+							</div>
+							<textarea class="form-control" name="messasge" placeholder="Your Message"></textarea>
+						</div>
+						<input type="submit" class="form-control btn btn-dark" value="APPOINTMENT NOW">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="our-blog">
+		<div class="container-fluid text-center">
+			<div class="container">
+				<h2 class="section-title">Top Blogs</h2>
+				<hr class="section-title-border">
+				<div class="row">
+					<div class="col-sm-6 col-12">
+						<a href="#">
+							<div class="blog-type">
+								<img src="assets/img/top-banner-bg.jpg" alt="" class="responsive w-100"><br>
+								<h5>Health Tips</h5>
+								<p>this is the test text there has to feature detail in this section</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 col-12">
+						<a href="#">
+							<div class="blog-type">
+								<img src="assets/img/food.jpg" alt="" class="responsive w-100"><br>
+								<h5>Healthy Food Tips</h5>
+								<p>this is the test text there has to feature detail in this section</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 col-12">
+						<a href="#">
+							<div class="blog-type">
+								<img src="assets/img/top-banner-bg.jpg" alt="" class="responsive w-100"><br>
+								<h5>Diseases & Cure</h5>
+								<p>this is the test text there has to feature detail in this section</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 col-12">
+						<a href="#">
+							<div class="blog-type">
+								<img src="assets/img/food.jpg" alt="" class="responsive w-100"><br>
+								<h5>Vitamins & Balance Diet</h5>
+								<p>this is the test text there has to feature detail in this section</p>
+							</div>
+						</a>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="">
+			<div class="container text-left footer-detail">
+				<div  class="row">
+					<div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+						<h3 class="text-center">Quick Links</h3>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Doctors</a></li>
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Register</a></li>
+							<li><a href="index.html#appointment">Take Appointmet</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 text-center mb-3">
+						<h3 class="text-center">Contact Us</h3>
+						<ul class="text-left">
+							<li>Email: info@onlinedoctorco.com</li>
+							<li>Phone: 234234234</li>
+						</ul>
+						<h5 class="text-center">Follow Us on</h5>
+						<span>
+							<a href="https://www.facebook.com/LUNARSchool/" class="text-light"><i class="fab fa-facebook-square fa-2x"></i></a>
+							<a href="https://twitter.com/" class="text-light px-2"><i class="fab fa-twitter-square fa-2x"></i></a>
+							<a href="https://www.linkedin.com/" class="text-light"><i class="fab fa-linkedin fa-2x"></i></a>
+						</span>
+					</div>
+					<div class="col-lg-4 col-md-12 text-center mb-3">
+						<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fparrotsys%2F&tabs&width=300&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2002464546433648" width="300" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<div class="container text-center">
+					Copyright &copy; All Rights Reserved | Developed by <a href="https://arbindra.com.np/">ArBn</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
